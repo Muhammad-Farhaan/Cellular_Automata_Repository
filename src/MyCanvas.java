@@ -18,14 +18,7 @@ public class MyCanvas extends Canvas/* implements MouseListener,MouseMotionListe
 	}
 	
 	public void paint(Graphics g) { //overriding a method paint
-		g.drawRect(382, 300, 100, 100); //(x,y,width,height) -> (0-1364,0-735,width,height)
-		g.drawRect(482, 300, 100, 100); //(x,y,width,height) -> (0-1364,0-735,width,height)
-		g.drawRect(582, 300, 100, 100); //(x,y,width,height) -> (0-1364,0-735,width,height)
-		g.drawRect(682, 300, 100, 100); //(x,y,width,height) -> (0-1364,0-735,width,height)
-		g.drawRect(782, 300, 100, 100); //(x,y,width,height) -> (0-1364,0-735,width,height)
-		g.drawRect(882, 300, 100, 100); //(x,y,width,height) -> (0-1364,0-735,width,height)
-		g.drawRect(982, 300, 100, 100); //(x,y,width,height) -> (0-1364,0-735,width,height)
-		g.drawRect(1082, 300, 100, 100); //(x,y,width,height) -> (0-1364,0-735,width,height)
+		g.drawRect(382, 300, 100, 100); //(x,y,width,height) -> (0-1364,0-735,width,height
 		
 //		g.drawLine(300, 10, 700, 510); //(x1,y1,x2,y2)
 	}
